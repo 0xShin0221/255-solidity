@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "key",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/13_GateKeeperHack.sol": "IGatekeeperOne"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/13_GateKeeperHack.sol": {
+			"keccak256": "0x3364b0d6b269d2898c98a88922abeb1e1682cd08a1319ade245a5f75206afcb4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32d4c71b3e16050df772daede7b5b6e84aa25a8e2dbb743c656474acfa69c450",
+				"dweb:/ipfs/QmdcjUhhrKZm22XZmgBhgdcEDMsDjHcsJtmagqLMQd5hKp"
+			]
+		}
+	},
+	"version": 1
+}

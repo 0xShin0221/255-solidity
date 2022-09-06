@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_guess",
+						"type": "bool"
+					}
+				],
+				"name": "hackFlip",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "originalContract",
+				"outputs": [
+					{
+						"internalType": "contract ICoinFlip",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_CoinFlip.sol": "hackCoinFlip"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_CoinFlip.sol": {
+			"keccak256": "0xd607ef3fac975467fe2bb710ab595c341fca92bd58a8ac70a7ff57c4e4650e1b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77873b945c60b8ec496a834e4c8a134eb7ab54a63a677197d4adbcbf91633abd",
+				"dweb:/ipfs/QmZWNyTu7tUozPDnjodHgdHUr2tdv9NDNMDSsreQbCi5Bx"
+			]
+		}
+	},
+	"version": 1
+}

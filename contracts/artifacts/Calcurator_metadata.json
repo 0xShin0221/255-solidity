@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "firstNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "secondNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/library_solidity101Calculator.sol": "Calcurator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/library_solidity101.sol": {
+			"keccak256": "0x6c1205fec3469a8424331b9fcb03d1e2e219ea6d5f05b8ca4351c09d3cc1d515",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://533f3a8f13e21b8c0fb3bb7051800ae27f2eb773e6d038814383650d7ce0fa0d",
+				"dweb:/ipfs/QmZ2DEtnz8cUULx5scssWU5ySbeMXpAjZaf6ddCvqYTZZQ"
+			]
+		},
+		"contracts/library_solidity101Calculator.sol": {
+			"keccak256": "0x039d21ca3d18ee187b8bc3999bf3755cda0eeba7d46530bfc554add2e62ceec8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49183a98521e62d85ee176611816fe4805a0f8073f7bb4fc6f04f8284847c032",
+				"dweb:/ipfs/QmQqjD5VzDGkQ8yPzrF1WVXaW5PRPaYcWxysH21pkNY41R"
+			]
+		}
+	},
+	"version": 1
+}

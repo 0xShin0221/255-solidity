@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes16",
+						"name": "ans",
+						"type": "bytes16"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12_privacyhack.sol": "IPrivacy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12_privacyhack.sol": {
+			"keccak256": "0x832b9773545dedac3d2b664f61515c47a614d9ce5381602cbe889e104c023c59",
+			"urls": [
+				"bzz-raw://f5a29ae0ca7eacff29e19b3a57d0a28ddaa38191416fa4de18a66d9bc6b5ffb3",
+				"dweb:/ipfs/QmcUNgZ3AsfJia3MrrpYRtNr2nk91tdsBh71vnKcpQFzeW"
+			]
+		}
+	},
+	"version": 1
+}

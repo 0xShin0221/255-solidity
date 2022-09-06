@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "nickname",
+						"type": "bytes32"
+					}
+				],
+				"name": "setNickname",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cp_choseNickname.sol": "GatekeeperHack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cp_choseNickname.sol": {
+			"keccak256": "0x4c15525d3b1bdb1e60dd6b9c0e50845646627df41615663130acbeaedc642407",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b89dc24d561edf7f35232b5d17cba10c35ac4d6e27f2c15fee8e977f2f1ab22d",
+				"dweb:/ipfs/QmRSL3nbs4gyD1wwr8rcoWJXMbd9M2gpxW93idEymnRoh5"
+			]
+		}
+	},
+	"version": 1
+}

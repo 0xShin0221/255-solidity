@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "nickname",
+						"type": "bytes32"
+					}
+				],
+				"name": "setNickname",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cp_choseNickname.sol": "NicknameHack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cp_choseNickname.sol": {
+			"keccak256": "0x8785537128bc2680ef836f7269c4c8e41ca64ec517bd400bfec60d34be7e00c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a18c7bf79544afc2a66d57a9081db3c2ff452295470f191c6131953d7937602",
+				"dweb:/ipfs/QmU2ptPbdhLqj33B6LGPUdsbq394PhFnrwPzoDbQ66Y7ag"
+			]
+		}
+	},
+	"version": 1
+}

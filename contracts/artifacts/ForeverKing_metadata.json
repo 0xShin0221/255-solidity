@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "claimKingship",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_kinghack.sol": "ForeverKing"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_kinghack.sol": {
+			"keccak256": "0x9fb8767b6591832a3d570b1ca96d520702b0038153b6573ce2db244fcc7f968f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://949c62533333e5725b6bffebbb53b10167ed840ae31b1f5b478792f1e9564fb4",
+				"dweb:/ipfs/QmTdV1jA2R4JfPLo8J33o647HPzDQ1QacHgG45EfVpMUwu"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "val",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "v",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "v",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/delegation_medium_sample.sol": "Storage"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/delegation_medium_sample.sol": {
+			"keccak256": "0x1f3cdfa381514991b5c92581629abca46ea7f48b6da049b35d6c74095a9ddfc9",
+			"urls": [
+				"bzzr://4279e4f4fe5e265f9011725c55fd8bab4472ec72003cd627052d86b2068a1efa",
+				"dweb:/ipfs/QmWFXJsrSJsH3UdA7vGNrDzQLEPq8oPPAS3cBAJtFs4fB3"
+			]
+		}
+	},
+	"version": 1
+}

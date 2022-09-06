@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callme",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cp_callme.sol": "ICallMe"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cp_callme.sol": {
+			"keccak256": "0x6b6f364452e55332ded8633b37d952ece49d1f8583e8836b95f814a695ded0ad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50b1a218ce067ada9f5ecf8342ebb86c3efbee6e64401b21046560bb88fbed50",
+				"dweb:/ipfs/QmZPHi94hJZrrNDj1Hrcsp9r2QUsf9Ru5yNJkneceLMTFu"
+			]
+		}
+	},
+	"version": 1
+}

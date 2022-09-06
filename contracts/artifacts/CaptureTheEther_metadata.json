@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "nicknameOf",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "nickname",
+						"type": "bytes32"
+					}
+				],
+				"name": "setNickname",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cp_choseNickname.sol": "CaptureTheEther"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cp_choseNickname.sol": {
+			"keccak256": "0x6a4a426740f4fa253f9e1cc08f346fe24f8b8390c15810260b2287b132ff8f9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b017413f0d539639596ff5deef8ef3011b3c2dd914561d6280f2d7463bdee12a",
+				"dweb:/ipfs/QmfJ8etm3oPLi3mzawm2LDvsALnxjWCKdNDFRqCJFVMiom"
+			]
+		}
+	},
+	"version": 1
+}

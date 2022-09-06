@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "GuessTheNumberChallenge",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "n",
+						"type": "uint8"
+					}
+				],
+				"name": "guess",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cp/GuessTheNumber.sol": "IGuessTheNumber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cp/GuessTheNumber.sol": {
+			"keccak256": "0x5d80b5de4df526beae1289dadf03fde05242e76a4a4b23a30a346a42153b4bf8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15d958914967b8a4e3193c1c5c6395c819e83efe8813c21dc59cafbf47c020f7",
+				"dweb:/ipfs/QmXPzweDYFFniwYNEZmDSgxFUutLNLZ3wrbUNHwU9xGms7"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/assembly_sample.sol": "SimpleContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/assembly_sample.sol": {
+			"keccak256": "0xafb4feb306f33b39bed1c486f976337e10147d2f114fcded02a99acd2cddbd77",
+			"urls": [
+				"bzzr://7d135da3f0e91cc2810a09300b701140fb77ee3f96c2a814727e66b5f8047e4c"
+			]
+		}
+	},
+	"version": 1
+}

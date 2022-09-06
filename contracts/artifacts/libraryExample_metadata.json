@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_In1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_In2",
+						"type": "string"
+					}
+				],
+				"name": "concatenate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/library_geeks.sol": "libraryExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/library_geeks.sol": {
+			"keccak256": "0x7f5801bf4f7bfc29eb8ac80428f20fd8730d01af6a2653c1c7b484c08a5249ac",
+			"urls": [
+				"bzz-raw://a5cd211f78a736ad20c7442b3914e51750e9990b752bcfe04b3ff7f3ec6aa54a",
+				"dweb:/ipfs/QmVmpdmtSwGAQx74pxJobj7iCAcsfR8en1b2STVyUgfHpX"
+			]
+		}
+	},
+	"version": 1
+}
