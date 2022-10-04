@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_solver",
+						"type": "address"
+					}
+				],
+				"name": "setSolver",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "solver",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/MagicNumber.sol": "MagicNum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/MagicNumber.sol": {
+			"keccak256": "0x7dad515fccdf3ec413f30c600a0fc326eee4c5f06cbf9dd3a9aba7dce202dfdc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d88f5a50a5c2b9b6542905f1b78b9f89d52de92cdc61bdc11cfe71801a35e30",
+				"dweb:/ipfs/QmZ5rCquzXjWPkNSRYgZgGrgWuFZSvHHebDXzZSpKDDKeY"
+			]
+		}
+	},
+	"version": 1
+}

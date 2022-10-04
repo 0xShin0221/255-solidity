@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -32,11 +32,8 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {
-				"constructor": {
-					"notice": "Network: Goerli Aggregator: ETH/USD Address: 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e"
-				},
 				"getLatestPrice()": {
-					"notice": "Returns the latest price"
+					"notice": "最新の価格を返す 　"
 				}
 			},
 			"version": 1
@@ -44,7 +41,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/chainlink/DataFeed.sol": "PriceConsumerV3"
+			"contracts/chainlink/Kovan.sol": "PriceConsumerV3"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,19 +56,19 @@
 	},
 	"sources": {
 		"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
-			"keccak256": "0x6e6e4b0835904509406b070ee173b5bc8f677c19421b76be38aea3b1b3d30846",
+			"keccak256": "0xf2b6c9adb3552254df1445b73563cf014434ff5e78663e9b961b6c059506ceb5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b3beaa37ee61e4ab615e250fbf01601ae481de843fd0ef55e6b44fd9d5fff8a7",
-				"dweb:/ipfs/QmeZUVwd26LzK4Mfp8Zba5JbQNkZFfTzFu1A6FVMMZDg9c"
+				"bzz-raw://6c1f59e0c7334c22fb54288728fc32546bdc9c8133d6db0d60223e3c28f52120",
+				"dweb:/ipfs/QmeuxawUVBhMWQJXaEhhnubCTc4Jwn5wYK8gbhq6NjrpfG"
 			]
 		},
-		"contracts/chainlink/DataFeed.sol": {
-			"keccak256": "0x25908c050ed592ca0d7629bd474c1ac74d3c8b8d22c9b0689a0aa61f82d0d70d",
+		"contracts/chainlink/Kovan.sol": {
+			"keccak256": "0xdc4832b56ef7eb12754f3b7e01949bcb717980b0ef399586a42bf458344944ec",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://096fad0e716f60e111c31c9ef67a0dfc81d2e8e6d0d4bc2000aa05f0120f8358",
-				"dweb:/ipfs/QmNuSK7PbgeAV3ecJfcFpYEZNR7AjsUsCcyczehxstL3jU"
+				"bzz-raw://53212b2969f1a4c794c260ee2306a4fd275286cb419dec32dc612478741d1046",
+				"dweb:/ipfs/QmVsqwuCRDeuWUr489V6wU4rHXKkRs3uCioJQsNbqQvY23"
 			]
 		}
 	},

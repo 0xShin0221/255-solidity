@@ -1,49 +1,38 @@
 {
 	"compiler": {
-		"version": "0.8.16+commit.07a7930e"
+		"version": "0.5.10+commit.5a6ea5b1"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"constant": true,
+				"inputs": [],
+				"name": "whatIsTheMeaningOfLife",
+				"outputs": [
 					{
-						"internalType": "contract EtherGame",
-						"name": "_etherGame",
-						"type": "address"
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "payable",
+				"payable": false,
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/self_destruct.sol": "Attack"
+			"contracts/DeployByteCode.sol": "Attack"
 		},
-		"evmVersion": "london",
+		"evmVersion": "petersburg",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -51,12 +40,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/self_destruct.sol": {
-			"keccak256": "0xb25dbf4a371aed8c42a0fa44ed82d5c5216ea09ae6e59a473e26d63d121f09c1",
-			"license": "MIT",
+		"contracts/DeployByteCode.sol": {
+			"keccak256": "0xd7a7c176d2e2d171ddbc3ba2fe4321c9b71dcf8f64c366ed42411e9a5e439e69",
 			"urls": [
-				"bzz-raw://ce91e51be59d13284c12d2408e82bdd9ab355c3df37c1fdb96ceb2d643b881c3",
-				"dweb:/ipfs/QmXykyHuKA8zMNrc6G3WSKxVxWxsrMCafpckkCatSiiWN4"
+				"bzzr://e94ad48d1fcb03071915d370629a6d077a305a13d2dfc9e692aca5f210eac3fc",
+				"dweb:/ipfs/QmdqDQLryyPpZ8jz3eYUFh3CvMjcENQ2WLmgYi1xgQaz5y"
 			]
 		}
 	},

@@ -227,7 +227,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/chainlink/APICall.sol": "APIConsumer"
+			"contracts/chainlink/APICallMumbai.sol": "APIConsumer"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -353,12 +353,12 @@
 				"dweb:/ipfs/QmXjy7BmtnPeCLMaMnGGnsxDPGxohfDpYzP8PnUoh6gBGa"
 			]
 		},
-		"contracts/chainlink/APICall.sol": {
-			"keccak256": "0x515ae9fe356e59ab4ae289d44b8d848287b237e26023eb724e0fef69924d20e9",
+		"contracts/chainlink/APICallMumbai.sol": {
+			"keccak256": "0xaca8ef765dbf4a3a61a5d831e60f5f38ee52eed0f4a724ab40e06faf1f20169f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5cfedd5062d195b7ebcd2d52b9f62110e995f201f5c7e6374e1a0f338d5209b",
-				"dweb:/ipfs/QmbWRjbAfRXWN2A6Yvfqnme3HrCQfJuG1XLy5riESev3py"
+				"bzz-raw://fccffec5120e3c9bca4dff3dfc30b9bf20fd2a905aebc87b8826eaa918eb7373",
+				"dweb:/ipfs/QmPTnmi4i9ahUnVXij4rSWeTnabrFBBqJ33U8wPbW7NrZb"
 			]
 		}
 	},

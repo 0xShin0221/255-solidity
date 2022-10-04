@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NestedStruct.sol": "Store"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NestedStruct.sol": {
+			"keccak256": "0x4e1a5f4e76947d6fcd254cd7d7d9ef54cb5811739a50993685209e8e61f473a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bcf3bd88bca5e04f2dde55f4cd6154f89f2c916250581c00823713544279a951",
+				"dweb:/ipfs/QmeVSH9wSN5tVrMzQRjQa2nRgQ7CgMYtgj3TXnAjCVJxNm"
+			]
+		}
+	},
+	"version": 1
+}

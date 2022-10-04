@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.5.10+commit.5a6ea5b1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "bytecode",
+						"type": "bytes"
+					}
+				],
+				"name": "deployBytecode",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DeployByteCode.sol": "DeployBytecode"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DeployByteCode.sol": {
+			"keccak256": "0xd7a7c176d2e2d171ddbc3ba2fe4321c9b71dcf8f64c366ed42411e9a5e439e69",
+			"urls": [
+				"bzzr://e94ad48d1fcb03071915d370629a6d077a305a13d2dfc9e692aca5f210eac3fc",
+				"dweb:/ipfs/QmdqDQLryyPpZ8jz3eYUFh3CvMjcENQ2WLmgYi1xgQaz5y"
+			]
+		}
+	},
+	"version": 1
+}

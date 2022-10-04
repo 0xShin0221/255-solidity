@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/14_GateKeeperTwoHack.sol": "LetMeIn"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/14_GateKeeperTwoHack.sol": {
+			"keccak256": "0xfd55f79c8828a4d05aeb5ae8634588b2ee57feb60c3ea5f0ca6162d6226dbf17",
+			"urls": [
+				"bzz-raw://4ccc27d64a7440c268ce94d19a23d12b427104b9e8252165bc97f19c9eef017b",
+				"dweb:/ipfs/Qmb9q1QKwmEjxreB2Ux13Lq5oM7yr8ybtppbhfZcExnsrL"
+			]
+		}
+	},
+	"version": 1
+}

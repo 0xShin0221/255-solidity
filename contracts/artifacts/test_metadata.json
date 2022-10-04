@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "valueFromStruct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NestedStruct.sol": "test"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NestedStruct.sol": {
+			"keccak256": "0x609df2d5e14f054d79610515ae8755fb93848013a2013705e3e6477997fb8a81",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1642d58fc6280e7634342c3fdd1036273d6cf446d9f21b177557936b42d67689",
+				"dweb:/ipfs/QmNRmMpvZfNoG88A6tnRsoJbJAyLKptrg1o2A29s3Jp755"
+			]
+		}
+	},
+	"version": 1
+}
