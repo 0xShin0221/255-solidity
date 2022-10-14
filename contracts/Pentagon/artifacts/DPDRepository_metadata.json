@@ -1,0 +1,363 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "dpdId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "updater",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "cid",
+						"type": "bytes32"
+					}
+				],
+				"name": "DPDAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "dpdId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "DPDOwnerChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "dpdId",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "version",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "cid",
+						"type": "bytes32"
+					}
+				],
+				"name": "DPDUpdated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "dpdId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "newUpdater",
+						"type": "address"
+					}
+				],
+				"name": "DPDUpdaterChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "dpdId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "newUpdater",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "cid",
+						"type": "bytes32"
+					}
+				],
+				"name": "addDpd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "dpds",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "cid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "dpdId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "cid",
+						"type": "bytes32"
+					}
+				],
+				"name": "updateDpdData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "dpdId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "updateDpdOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "dpdId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "newUpdater",
+						"type": "address"
+					}
+				],
+				"name": "updateDpdUpdater",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "updater",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "versions",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "David Lucid <david@pentagon.xyz>",
+			"kind": "dev",
+			"methods": {
+				"addDpd(uint256,address,address,bytes32)": {
+					"params": {
+						"cid": "DPD CID (content identifier).",
+						"newUpdater": "DPD updater address.",
+						"owner": "DPD owner address."
+					}
+				},
+				"updateDpdData(uint256,bytes32)": {
+					"params": {
+						"cid": "New DPD CID (content identifier).",
+						"dpdId": "DPD's ID in this repository."
+					}
+				},
+				"updateDpdOwner(uint256,address)": {
+					"params": {
+						"dpdId": "DPD's ID in this repository.",
+						"newOwner": "New owner address for this DPD."
+					}
+				},
+				"updateDpdUpdater(uint256,address)": {
+					"params": {
+						"dpdId": "DPD's ID in this repository.",
+						"newUpdater": "New updater address for this DPD."
+					}
+				}
+			},
+			"stateVariables": {
+				"updater": {
+					"details": "Excluded from DPD struct to avoid unnecessary allocation memory."
+				},
+				"versions": {
+					"details": "Excluded from DPD struct to avoid unnecessary allocation memory."
+				}
+			},
+			"title": "DPDRepository",
+			"version": 1
+		},
+		"userdoc": {
+			"events": {
+				"DPDAdded(uint256,address,address,bytes32)": {
+					"notice": "Event emitted when a new DPD is added to the repository."
+				},
+				"DPDOwnerChanged(uint256,address)": {
+					"notice": "Event emitted when a DPD's owner is changed."
+				},
+				"DPDUpdated(uint256,uint256,bytes32)": {
+					"notice": "Event emitted when a new DPD is added to the repository."
+				},
+				"DPDUpdaterChanged(uint256,address)": {
+					"notice": "Event emitted when a DPD's upgrader is changed."
+				}
+			},
+			"kind": "user",
+			"methods": {
+				"addDpd(uint256,address,address,bytes32)": {
+					"notice": "Function to add a new DPD."
+				},
+				"dpds(uint256)": {
+					"notice": "DPD CIDs and owners mapped by DPD ID."
+				},
+				"updateDpdData(uint256,bytes32)": {
+					"notice": "Function to update a DPD's CID."
+				},
+				"updateDpdOwner(uint256,address)": {
+					"notice": "Function to set a DPD's owner."
+				},
+				"updateDpdUpdater(uint256,address)": {
+					"notice": "Function to set a DPD's upgrader."
+				},
+				"updater(uint256)": {
+					"notice": "Updaters mapped by DPD ID."
+				},
+				"versions(uint256)": {
+					"notice": "Versions mapped by DPD ID."
+				}
+			},
+			"notice": "The Decentralized Programmable Data (DPD) Repository stores data content identifiers, versions, authorized owners, and upgraders.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Pentagon/DPDRepository.sol": "DPDRepository"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Pentagon/DPDRepository.sol": {
+			"keccak256": "0xb0bb94686888fa40641f4657978f4eaf7254262bd94cfcea646e2af21021477c",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://71a7bf54ecbe813817d708b49cac2b054afa0f9e4b0478cf1e63dd58a000e7e6",
+				"dweb:/ipfs/QmSXda2kgL9v3pVwWspLvb78ky1mZQyTu8PdhVtwJxFbnk"
+			]
+		}
+	},
+	"version": 1
+}
