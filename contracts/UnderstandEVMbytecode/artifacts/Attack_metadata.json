@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "whatIsTheMeaningOfLife",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UnderstandEVMbytecode/part1.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UnderstandEVMbytecode/part1.sol": {
+			"keccak256": "0xe96d2be88d196ce714ad9ca149fe47675ba073396524c4206f2b194ca21c409f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://49454d937e945f4c4fae9f5ba96a0d4b595e828f54de7edbb0d47d5d88cee3e5",
+				"dweb:/ipfs/QmNv4mTP7zeiBTGQxQUbsTPz2x6zE4zABK41tL1pJyDFCS"
+			]
+		}
+	},
+	"version": 1
+}
