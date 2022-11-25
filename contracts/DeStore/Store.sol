@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 pragma experimental ABIEncoderV2;
 import "openzeppelin-solidity/contracts/access/Ownable.sol";
 
-contract Store is Ownable{
+contract Store is Ownable {
     struct StoreOnSquare{
         string storeName;  // storeName - Square: Location.name
         string addressLine1; // addressLine1 - Square: Address.address_line_1
