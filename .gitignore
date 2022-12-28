@@ -1,4 +1,5 @@
-artifacts
+*artifacts/
+.deps
 
 # Created by .ignore support plugin (hsz.mobi)
 ### VisualStudioCode template
